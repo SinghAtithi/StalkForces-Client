@@ -33,6 +33,10 @@ function UserDetails(props) {
     const data = {
       userName: props.user.userName,
       telegramChatId: props.telegramChatId,
+      maxRating: props.user.maxRating,
+      maxRank: props.user.maxRank,
+      currRating: props.user.currRating,
+      profilePic: props.user.profilePic,
     };
     axios
       .post("https://stalkforces-server.herokuapp.com/", data)

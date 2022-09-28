@@ -48,7 +48,7 @@ function App() {
         setTelegramChatId={setTelegramChatId}
       />
       
-      <DisplayFriendsDetails friends={friends} />
+      <DisplayFriendsDetails telegramChatId={telegramChatId} />
     </div>
   );
 }
